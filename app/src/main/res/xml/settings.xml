@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:title="@string/preferenceTitle">
+        <ListPreference
+            android:title="@string/categoryUnitDistance"
+            android:summary="@string/categoryUnitSummary"
+            android:dialogTitle="@string/categoryUnitDistance"
+            android:entries="@array/unitLength"
+            android:defaultValue="9"
+            android:entryValues="@array/unitLengthValues"
+            android:key="unitLengthPreferences"
+            />
+
+        <ListPreference
+            android:title="@string/categoryUnitMassDistance"
+            android:summary="@string/categoryUnitMassSummary"
+            android:dialogTitle="@string/categoryUnitMassDistance"
+            android:defaultValue="0"
+            android:entries="@array/massUnitDistance"
+            android:entryValues="@array/massUnitDistanceValue"
+            android:key="unitMassLengthPreferences"
+            />
+    </PreferenceScreen>

@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Pipe Dimensions</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="nominalSizes">
+        <item>All</item>
+        <item>1/8\" </item>
+        <item>1/4\"</item>
+        <item>3/8\"</item>
+        <item>1/2\"</item>
+        <item>3/4\"</item>
+        <item>1\"</item>
+        <item>1 1/4\"</item>
+        <item>1 1/2\"</item>
+        <item>2\"</item>
+        <item>2 1/2\"</item>
+        <item>3\"</item>
+        <item>3 1/2\"</item>
+        <item>4\"</item>
+        <item>5\"</item>
+        <item>6\"</item>
+        <item>8\"</item>
+        <item>10\"</item>
+        <item>12\"</item>
+        <item>14\"</item>
+        <item>16\"</item>
+        <item>18\"</item>
+        <item>20\"</item>
+        <item>22\"</item>
+        <item>24\"</item>
+        <item>26\"</item>
+        <item>28\"</item>
+        <item>30\"</item>
+        <item>32\"</item>
+        <item>34\"</item>
+        <item>36\"</item>
+        <item>38\"</item>
+        <item>40\"</item>
+        <item>42\"</item>
+        <item>44\"</item>
+        <item>46\"</item>
+        <item>48\"</item>
+    </string-array>
+
+    <string-array name="schedule">
+        <item>All</item>
+        <item>Schedule 5S</item>
+        <item>Schedule 5</item>
+        <item>Schedule 10S</item>
+        <item>Schedule 10</item>
+        <item>Schedule 20</item>
+        <item>Schedule 30</item>
+        <item>Schedule 40S</item>
+        <item>Schedule STD</item>
+        <item>Schedule 40</item>
+        <item>Schedule 60</item>
+        <item>Schedule 80S</item>
+        <item>Schedule XS</item>
+        <item>Schedule 80</item>
+        <item>Schedule 100</item>
+        <item>Schedule 120</item>
+        <item>Schedule 140</item>
+        <item>Schedule 160</item>
+        <item>Schedule XXS</item>
+    </string-array>
+
+    <string-array name="lengthUnit">
+        <item>m</item>
+        <item>dm</item>
+        <item>cm</item>
+        <item>mm</item>
+        <item>um</item>
+        <item>nm</item>
+        <item>A</item>
+        <item>hm</item>
+        <item>km</item>
+        <item>in</item>
+        <item>ft</item>
+        <item>yrd</item>
+        <item>mile</item>
+        <item>Nautical Mile</item>
+        <item>Cable</item>
+    </string-array>
+    <string name="lengthPreference">Unit of Length Desired</string>
+    <string name="nominalSize">Nominal Size: </string>
+    <string name="schedule">Schedule: </string>
+    <string name="insideDiameter">Inside Diameter: </string>
+    <string name="outsideDiameter">Outside Diameter: </string>
+    <string name="weightFoot">Weight per distance: </string>
+    <string name="thickness">Thickness: </string>
+    <string name="NA">Not Apply</string>
+    <string name="result">Result: </string>
+    <string name="preferenceTitle">Preferences</string>
+    <string name="categoryUnitDistance">Unit of Distance</string>
+    <string name="categoryUnitSummary">Unit for all length into the pipe.</string>
+    <string name="categoryUnitMassDistance">Unit of Weight by Distance</string>
+    <string name="categoryUnitMassSummary">Unit for weight per distance. </string>
+    <string-array name="unitLength">
+        <item>m</item>
+        <item>dm</item>
+        <item>cm</item>
+        <item>mm</item>
+        <item>um</item>
+        <item>nm</item>
+        <item>A</item>
+        <item>hm</item>
+        <item>km</item>
+        <item>in</item>
+        <item>ft</item>
+        <item>yrd</item>
+        <item>mile</item>
+        <item>Nautical Mile</item>
+        <item>Cable</item>
+    </string-array>
+    <string-array name="unitLengthValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+
+    <string-array name="massUnitDistance">
+        <item>Lbs/ft</item>
+        <item>kg/m</item>
+    </string-array>
+    <string-array name="massUnitDistanceValue">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+
+
+
+
+</resources>

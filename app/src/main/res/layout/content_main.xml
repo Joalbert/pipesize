@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/nominalSize"
+        android:background="@drawable/spinner_units_utilities"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/schedule"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:background="@drawable/spinner_units_utilities"
+        />
+
+    <ListView
+        android:id="@+id/results"
+        android:layout_below="@id/schedule"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="5dp"
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:background="@color/WindowBackground"
+        app:backgroundTint="@color/textSpinner"
+        app:srcCompat="@drawable/pipebtn" />
+
+</RelativeLayout>

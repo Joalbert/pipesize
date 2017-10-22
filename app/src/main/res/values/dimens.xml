@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="inside_diameter">140px</dimen>
+    <dimen name="outside_diameter">280px</dimen>
+</resources>

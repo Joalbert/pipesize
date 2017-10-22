@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1b5e20</color>
+    <color name="colorPrimaryDark">#003300</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColor">#000000</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textSpinner">#FFFFFF</color>
+    <color name="strokeSpinner">#2c3e50</color>
+    <color name="WindowBackground">#FFFFFF</color>
+    <color name="mainSpinner">#8e44ad</color>
+    <color name="toolbarTitle">#FFFFFF</color>
+    <color name="secondSpinner">#4c8c4a</color>
+    <color name="warning">#FF0000</color>
+</resources>

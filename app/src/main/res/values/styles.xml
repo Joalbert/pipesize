@@ -1,0 +1,45 @@
+<resources>
+https://material.io/guidelines/material-design/material-properties.html
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Toolbar-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Window Background-->
+        <item name="android:windowBackground">@color/WindowBackground</item>
+        <!-- Overflow Menu Background-->
+        <item name="android:colorBackground">@color/colorPrimary</item>
+    </style>
+
+     <style name="Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+         <!-- Control-->
+         <item name="colorAccent">@color/colorAccent</item>
+         <item name="colorControlNormal">@android:color/holo_blue_dark</item>
+         <!-- title-->
+         <item name="android:textColorPrimary">@color/colorPrimary</item>
+         <!-- Items-->
+         <item name="android:textColorAlertDialogListItem">@color/colorPrimary</item>
+         <!-- Page-->
+         <item name="android:background">@color/WindowBackground</item>
+
+     </style>
+
+    <style name="AppThemeSetting" parent="Theme.AppCompat.NoActionBar">
+        <!-- Toolbar-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Window Background-->
+        <item name="android:windowBackground">@color/WindowBackground</item>
+        <!-- Style Alert Dialog-->
+        <item name="android:alertDialogTheme">@style/Dialog</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:textColorPrimary">@color/toolbarTitle</item>
+    </style>
+    <style name="AppTheme.PopupOverlay">
+    </style>
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+
+    </style>
+    </resources>
